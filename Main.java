@@ -115,6 +115,7 @@ class Main {
     Persona p1 = new Persona("Susanna Verdi", 1982);
     */
     System.out.println("Inizio Sezione 11: I Record (JDK16)");
+  
     System.out.println("Fine Sezione 11: I Record (JDK16)");
     /**************************************************************************/
     
