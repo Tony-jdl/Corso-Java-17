@@ -1,3 +1,5 @@
+package src.ereditarita;
+
 class CClass extends BClass {
 /*   String cst;
 

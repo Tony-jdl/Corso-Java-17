@@ -1,4 +1,6 @@
-class ContoCorrente {
+package src.controllo_di_flusso;
+
+public class ContoCorrente {
   double saldo;
 
   void deposito(double importo) {

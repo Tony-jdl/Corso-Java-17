@@ -1,3 +1,5 @@
+package src.classificazioni;
+
 class MyClass {
   private int x, y;
 

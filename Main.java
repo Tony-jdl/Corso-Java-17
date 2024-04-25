@@ -1,17 +1,23 @@
+import src.array.MyClassVargs;
+import src.classificazioni.MyStaticClass;
+import src.controllo_di_flusso.ContoCorrente;
+import src.ereditarita.AClass;
+import src.ereditarita.BClass;
+
 class Main {
   public static void main(String[] args) {
     
-    ContoCorrente c1 = new ContoCorrente();
-
-    c1.deposito(500);
-    System.out.println(c1.saldo());
-
-    c1.prelievo(200);
-    System.out.println(c1.saldo());
-
-    MyStaticClass staticClass = new MyStaticClass();
-    MyStaticClass staticClass2 = new MyStaticClass();
-    System.out.println(MyStaticClass.x + " " + MyStaticClass.y);
+//    ContoCorrente c1 = new ContoCorrente();
+//
+//    c1.deposito(500);
+//    System.out.println(c1.saldo());
+//
+//    c1.prelievo(200);
+//    System.out.println(c1.saldo());
+//
+//    MyStaticClass staticClass = new MyStaticClass();
+//    MyStaticClass staticClass2 = new MyStaticClass();
+//    System.out.println(MyStaticClass.x + " " + MyStaticClass.y);
 
 /**************************************************************************/
     
@@ -86,11 +92,11 @@ class Main {
     //CClass cc = new CClass("Primo", "Secondo", "Terzo");
     //System.out.println(cc.ast + " " + cc.bst + " " + cc.cst);
 
-    AClass a = new AClass();
-    BClass b = new BClass();
-    b = a;
-    a.aMethod();
-    b.bMethod();
+//    AClass a = new AClass();
+//    BClass b = new BClass();
+//    b = a;
+//    a.aMethod();
+//    b.bMethod();
 
     /* 
     classe Object è la classe base di ogni classe Java esistente o che creiamo noi.

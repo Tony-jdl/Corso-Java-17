@@ -1,4 +1,6 @@
-class MyStaticClass {
+package src.classificazioni;
+
+public class MyStaticClass {
   static int x, y;
 
   static {
