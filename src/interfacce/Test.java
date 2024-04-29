@@ -20,13 +20,16 @@ public class Test {
 //             i.myMethod2();
 //         }
          AClass a = new AClass();
+//
+//         IMyInterface mi1 = a;
+//         IMyInterface2 mi2 = a;
+//
+//         mi1.myMethod1();
+//
+//         mi2.myMethod1();
+//         mi2.myMethod1();
 
-         IMyInterface mi1 = a;
-         IMyInterface2 mi2 = a;
-
-         mi1.myMethod1();
-
-         mi2.myMethod1();
-         mi2.myMethod1();
+         a.myMethod1();
+         a.myMethod2();
     }
 }
