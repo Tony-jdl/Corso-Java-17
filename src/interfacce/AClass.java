@@ -1,6 +1,6 @@
 package src.interfacce;
 
-public class AClass implements IMyInterface, IMyInterface2 {
+public class AClass implements IMyInterface2 {
 
     @Override
     public void myMethod1() {
