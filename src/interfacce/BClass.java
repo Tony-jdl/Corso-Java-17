@@ -7,7 +7,7 @@ public class BClass implements IMyInterface2{
     }
 
     @Override
-    public void myMethod1() {
+    public void myMethod() {
 
     }
 }

@@ -29,7 +29,8 @@ public class Test {
 //         mi2.myMethod1();
 //         mi2.myMethod1();
 
-         a.myMethod1();
-         a.myMethod2();
+//         a.myMethod1();
+//         a.myMethod2();
+
     }
 }
