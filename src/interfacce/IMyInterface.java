@@ -6,6 +6,10 @@ public interface IMyInterface {
         System.out.println("IMyInterface, privMethod");
     }
 
+    static void myStaticMethod() {
+        System.out.println("IMyInterface, myStaticMethod");
+    }
+
     default void myMethod() {
         privMethod();
         System.out.println("IMyInterface, myMethod2");

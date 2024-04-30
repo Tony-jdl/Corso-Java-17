@@ -31,6 +31,6 @@ public class Test {
 
 //         a.myMethod1();
 //         a.myMethod2();
-
+         IMyInterface.myStaticMethod();
     }
 }
