@@ -1,13 +1,19 @@
 package src.generics;
 
-public class MyGeneric <T> {
+public class MyGeneric <T,V> {
     private T t;
+    private V v;
 
-    public T getObject() {
+    public T getT() {
         return t;
     }
 
-    public void setObject(T t) {
+    public V getV() {
+        return v;
+    }
+
+    MyGeneric(T t, V v) {
         this.t = t;
+        this.v = v;
     }
 }
