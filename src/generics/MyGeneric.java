@@ -1,19 +1,13 @@
 package src.generics;
 
-public class MyGeneric <T,V> {
+public class MyGeneric <T extends Number> {
     private T t;
-    private V v;
 
-    public T getT() {
-        return t;
-    }
-
-    public V getV() {
-        return v;
-    }
-
-    MyGeneric(T t, V v) {
+    MyGeneric(T t) {
         this.t = t;
-        this.v = v;
+    }
+
+    int quadrato(){
+        return t.intValue() * t.intValue();
     }
 }
