@@ -14,11 +14,9 @@ public class Test {
 //        }
 
         try {
-            z = x / y;
-            System.out.println("Tutto ok, z vale " + z);
-        } catch (ArithmeticException e) {
-            System.out.println("Divisione per zero!");
-            throw e;
+            throw new MyException();
+        } catch (MyException e) {
+            System.out.println(e);
         }
     }
 }
