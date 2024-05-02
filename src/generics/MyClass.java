@@ -1,13 +1,9 @@
 package src.generics;
 
-public class MyClass {
-    private Object obj;
+public class MyClass<T> implements IMyInterface{
 
-    public Object getObject() {
-        return obj;
-    }
-
-    public void setObject(Object obj) {
-        this.obj = obj;
+    @Override
+    public void myMethod(Object o) {
+        System.out.println(o);
     }
 }
