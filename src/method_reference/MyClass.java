@@ -2,11 +2,11 @@ package src.method_reference;
 
 public class MyClass {
 
-    static boolean contiene(String s, String sub){
+    boolean contiene(String s, String sub){
         return (s.indexOf(sub) == -1) ? false : true;
     }
 
-    static boolean uguali(String prima, String seconda){
+    boolean uguali(String prima, String seconda){
         return prima.equals(seconda);
     }
 }
