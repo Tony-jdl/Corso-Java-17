@@ -2,14 +2,16 @@ package src.method_reference;
 
 public class Test {
     public static void main(String[] args) {
-        boolean b = prova(MyClass::contiene, "Java Language", "Language");
+        boolean b;
+        MyClass mc1 = new MyClass();
+        MyClass mc2 = new MyClass();
+
+        IMyInterface mi = mc1::contiene;
+        b = mi.controlla("Java Language", "Java");
         System.out.println(b);
 
-        b = prova(MyClass::uguali, "Java", "Pythone");
+        mi = mc2::uguali;
+        b = mi.controlla("Java", "Pythone");
         System.out.println(b);
-    }
-
-    static boolean prova(IMyInterface mi, String sa, String sb){
-        return mi.controlla(sa,sb);
     }
 }
