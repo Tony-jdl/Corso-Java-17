@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Corso-Java-17.iml" filepath="$PROJECT_DIR$/Corso-Java-17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modex/lib/lib.iml" filepath="$PROJECT_DIR$/modex/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modex/modex.iml" filepath="$PROJECT_DIR$/modex/modex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modex/test/test.iml" filepath="$PROJECT_DIR$/modex/test/test.iml" />
     </modules>
   </component>
 </project>
