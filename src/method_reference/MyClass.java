@@ -1,12 +1,16 @@
 package src.method_reference;
 
 public class MyClass {
+    private String s;
+    private boolean b;
 
-    boolean contiene(String s, String sub){
-        return (s.indexOf(sub) == -1) ? false : true;
+    public MyClass(String s, boolean b){
+        this.s = s;
+        this.b = b;
     }
 
-    boolean uguali(String prima, String seconda){
-        return prima.equals(seconda);
+    @Override
+    public String toString(){
+        return s + " " + b;
     }
 }
